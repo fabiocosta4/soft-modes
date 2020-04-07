@@ -1,0 +1,123 @@
+mpprun info: Starting impi run on 1 node ( 32 rank X 2 th ) for job ID 7525674
+
+     Program Q2R v.6.4.1 starts on 30Mar2020 at 10:35:49 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      64 processor cores
+     Number of MPI processes:                32
+     Threads/MPI process:                     2
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+
+     reading grid info from file C.dyn0    
+  reading force constants from file C.dyn1
+  Dielectric Tensor not found
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file C.dyn2
+  nqs=            6
+ q=   0.00000000  0.00000000  0.33105190
+ q=   0.33105190  0.00000000  0.00000000
+ q=   0.00000000 -0.33105190  0.00000000
+ q=   0.00000000  0.33105190  0.00000000
+ q=  -0.33105190  0.00000000  0.00000000
+ q=   0.00000000  0.00000000 -0.33105190
+  reading force constants from file C.dyn3
+  nqs=           12
+ q=   0.00000000  0.33105190  0.33105190
+ q=  -0.33105190  0.00000000  0.33105190
+ q=   0.00000000 -0.33105190  0.33105190
+ q=   0.33105190  0.00000000  0.33105190
+ q=   0.33105190  0.33105190  0.00000000
+ q=   0.33105190 -0.33105190  0.00000000
+ q=  -0.33105190 -0.33105190  0.00000000
+ q=   0.33105190  0.00000000 -0.33105190
+ q=  -0.33105190  0.00000000 -0.33105190
+ q=   0.00000000  0.33105190 -0.33105190
+ q=   0.00000000 -0.33105190 -0.33105190
+ q=  -0.33105190  0.33105190  0.00000000
+  reading force constants from file C.dyn4
+  nqs=            8
+ q=   0.33105190  0.33105190  0.33105190
+ q=  -0.33105190 -0.33105190 -0.33105190
+ q=   0.33105190 -0.33105190 -0.33105190
+ q=  -0.33105190  0.33105190  0.33105190
+ q=  -0.33105190 -0.33105190  0.33105190
+ q=   0.33105190  0.33105190 -0.33105190
+ q=  -0.33105190  0.33105190 -0.33105190
+ q=   0.33105190 -0.33105190  0.33105190
+
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+   Preparing gamma for a2F 
+ 
+ 
+ Broadening =      0.005
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.010
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.015
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.020
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.025
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.030
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.035
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.040
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.045
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+ Broadening =      0.050
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+     Q2R          :      1.59s CPU      3.03s WALL
+
+ 
+   This run was terminated on:  10:35:52  30Mar2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+mpprun info: Elapsed time (h:m:s):  0:00:03.967981

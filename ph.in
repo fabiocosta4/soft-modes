@@ -1,0 +1,16 @@
+ &inputph
+  tr2_ph=1.0d-10,
+  prefix='C',
+  fildvscf='dvscf',
+  amass(1)=12.011,
+  amass(2)=14.00,
+  outdir='/scratch/job/tmp',
+  fildyn='C.dyn',
+  electron_phonon='interpolated',
+  el_ph_sigma=0.005,
+  el_ph_nsigma=15,
+  trans=.true.,
+  ldisp=.true.
+  nq1=3, nq2=3, nq3=3
+ /
+

@@ -1,0 +1,6 @@
+&input
+zasr='simple'
+fildyn='C.dyn'
+flfrc='C.fc'
+la2F=.true.
+/
